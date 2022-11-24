@@ -34,7 +34,8 @@ const myRoute:Routes=[
     component:DeleteEmployeeComponent
   },
   {
-    path:"view"
+    path:"view",
+    component:ViewEmployeeComponent
   }
 ]
 @NgModule({
