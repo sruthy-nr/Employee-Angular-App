@@ -6,10 +6,10 @@
                 <h2>SEARCH EMPLOYEE</h2>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" class="form-label">EMPLOYEE CODE</label>
-                    <input type="text" name="" id="" class="form-control">
+                    <input type="text" name="" [(ngModel)]="empcode" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <a href="#" class="btn btn-primary">SEARCH</a>
+                    <button class="btn btn-primary" (click)="search()">SEARCH</button>
                 </div>
             </div>
         </div>
