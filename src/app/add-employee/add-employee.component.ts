@@ -17,6 +17,7 @@ export class AddEmployeeComponent {
     let employee:any={
       "name":this.name,"designation":this.designation,"salary":this.salary,"company":this.company
     }
+    console.log(employee)
   }
 
 }
