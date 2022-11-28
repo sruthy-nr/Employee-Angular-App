@@ -17,5 +17,13 @@ export class LoginComponent {
       "password":this.password
     }
     console.log(log)
+    if(this.username=="admin" && this.password=="12345")
+    {
+      alert("Valid login")
+    }
+    else
+    {
+      alert("Invalid credentials")
+    }
   }
 }
