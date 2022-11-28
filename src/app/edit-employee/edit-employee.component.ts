@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class EditEmployeeComponent {
 
+  empcode=""
+
+  edit=()=>
+  {
+    let data:any={
+      "empcode":this.empcode
+    }
+    // console.log(this.empcode)
+    console.log(data)
+
+  }
 }
