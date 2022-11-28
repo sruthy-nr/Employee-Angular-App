@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class DeleteEmployeeComponent {
 
+  empcode=""
+
+  delete=()=>
+  {
+    let del:any={
+      "empcode":this.empcode
+    }
+    // console.log(this.empcode)
+    console.log(del)
+
+  }
 }
