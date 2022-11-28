@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  username=""
+  password=""
+
+  login=()=>
+  {
+    let log:any={
+      "username":this.username,
+      "password":this.password
+    }
+    console.log(log)
+  }
 }
